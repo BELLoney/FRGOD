@@ -65,9 +65,7 @@ def FRGOD(data, lammda):
 
 if __name__ == "__main__":
     load_data = loadmat('Example.mat')
-    # load_data = loadmat('D:\川大\川大\Programs\离群检测算法\pyod_main\datasets\mushroom_p_221_variant1.mat')
     trandata = load_data['Example']
-    # trandata = load_data['trandata']
     scaler = MinMaxScaler()
     trandata[:, 1:3] = scaler.fit_transform(trandata[:, 1:3])
 
