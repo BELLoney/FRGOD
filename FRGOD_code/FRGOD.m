@@ -8,13 +8,14 @@
 function FRGOF=FRGOD(data,lammda)
 %%%input:
 % data is data matrix without decisions, where rows for samples and columns for attributes.
+% Numeric attribute data is normalized to [0,1].
 % lammda is used to adjust the adaptive fuzzy radius.
 %%%output
-% Ranking objects and fuzzy rough granules-based outlier factor (FRGOF).
+% fuzzy rough granules-based outlier factor (FRGOF).
 
 [n,m]=size(data);
-%%%%%%%%%%%%%%%%% 计算第l个条件属性的邻域集合
-delta=zeros(1,m);%初始化邻域半径
+%%%%%%%%%%%%%%%%% 
+delta=zeros(1,m);
 ID=all(data<=1);
 delta(ID)=std(data(:,ID),1)./lammda;
 %%%%%%%%%%%%%compute relation matrices with a single attribute%%%%%%%%%
