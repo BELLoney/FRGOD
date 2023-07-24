@@ -1,3 +1,5 @@
+clc;
+clear all
 
 load Example.mat
 Dataori=Example;
