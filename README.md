@@ -59,4 +59,4 @@ If you find FRGOD useful in your research, please consider citing:
 ```
 ## Contact
 
-If you have any question, please contact yuanzhong@scu.edu.cn
+If you have any question, please contact yuanzhong@scu.edu.cn.
