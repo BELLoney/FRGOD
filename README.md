@@ -1,6 +1,6 @@
 # FRGOD
 Zhong Yuan, **Hongmei Chen***, Tianrui Li, Binbin Sang, and Shu Wang, 
-[Outlier Detection Based on Fuzzy Rough Granules in Mixed Attribute Data](FRGOD_code/2022-FRGOD.pdf), 
+[Outlier Detection Based on Fuzzy Rough Granules in Mixed Attribute Data](Paper/2022-FRGOD.pdf), 
 IEEE Transactions on Cybernetics, Volume: 52, Issue: 8, August 2022, 
 DOI: [10.1109/TCYB.2021.3058780](https://doi.org/10.1109/TCYB.2021.3058780). (Code)
 
