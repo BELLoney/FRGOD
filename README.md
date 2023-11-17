@@ -35,6 +35,7 @@ out_factors=FRGOD(trandata,lam)
 You can get outputs as follows:
 ```
 out_factors =
+
       0.31923
       0.18569
       0.19614
