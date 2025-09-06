@@ -16,7 +16,7 @@ Furthermore, the corresponding fuzzy rough granules-based outlier detection (FRG
 The experimental results show that the algorithm is more flexible for detecting outliers and is suitable for numerical, categorical, and mixed attribute data.
 
 ## Usage
-You can run Demo_FRGOD.m or FRGOD.py:
+You can run Demo_FRGOD.m, FRGOD.py or FRGOD_PyTorch.py:
 ```
 clc;
 clear all
